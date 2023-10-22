@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    }
+    
+p{
+    font-size: 18px;
+    font-family: DM sans;
+}
+
+#balance{
+    position: relative;
+    width: 450px;
+    height: 100px;
+    background-color:  hsl(10, 79%, 65%);
+    left: 490px;
+    top: 100px;
+    border-radius: 15px;
+}
+
+#mybalance{
+   position: absolute;
+   top: 15%;
+   left: 5%;
+   color: white;
+}
+#total{
+    width: 400px;
+    position: absolute;
+    left: 5%;
+    top: 43%;
+    font-size: 33px;
+    color: white;
+    font-weight: 700;
+}
+#logo{
+    position: absolute;
+    scale: 0.9;
+    left: 80%;
+    top: 25%;
+}
+    #maincontent{
+        position: relative;
+        width: 450px;
+        height: 420px;
+        background-color: white;
+        left: 490px;
+        top: 110px;
+        border-radius: 15px;
+    }
+    
+    #spent{
+        position: absolute;
+        font-size: 33px;
+        left: 5%;
+        top: 5%;
+        color: black;
+        font-weight: 700;
+    }
+
+    #week{
+        position: absolute;
+        width: 400px;
+        height: 250px;
+        left: 7.5%;
+        top: 20%;
+   
+    }
+
+    #mon, #tue , #wed, #thu, #fri,#sat,#sun{
+        position: relative;
+        width: 42px;
+        background-color: hsl(10, 79%, 65%);
+        display: inline-block ;
+        margin-right: 10px;
+        top: 165px;
+        border-radius: 7px;
+        }
+
+      
+        #mon:hover, #tue:hover , #wed:hover, #thu:hover, #fri:hover,#sat:hover,#sun:hover{
+            position: relative;
+            background-color: hsl(186, 34%, 60%);
+            display: inline-block ;
+            margin-right: 10px;
+            top: 165px;
+            cursor: pointer;
+            }
+    
+    #line {
+        position: absolute;
+        width:400px;
+        border-bottom: 1px solid gray;
+        top: 81%;
+        left: 7%;
+    }
+    
+    
+#thismonth{
+    position: absolute;
+    top: 84%;
+    left: 7%;
+    font-size: 15px;
+    color: gray;
+}
+
+#totalmoney{
+    width: 200px;
+    position: absolute;
+    top: 88%;
+    font-size: 35px;
+    left: 7%;
+    font-weight: 700;
+}
+
+#lastmonth{
+    position: absolute;
+    top: 93%;
+    left: 70%;
+    font-size: 15px;
+    color: gray;
+}
+
+#percent{
+    position: absolute;
+    left: 80%;
+    top: 86%;
+    font-weight: 700;
+}
+
+
+#up1{
+    font-size: small;
+    position: relative;
+    width: 45px;
+    height: 25px;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 5px;
+    
+
+}
+
+
+
+
+#text{
+    position: absolute;
+    top: 2px;
+    left: 10%;
+    
+}
